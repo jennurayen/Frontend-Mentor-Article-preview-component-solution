@@ -1,0 +1,65 @@
+@media only screen and (max-width:730px) {
+    .wrapper {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .image {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .details {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .profile {
+        padding: 0;
+        height: 70px;
+    }
+
+    .avatar {
+        margin-left: 30px;
+    }
+
+    .share {
+        margin-right: 30px;
+        width: 30px;
+        color: hsl(214, 17%, 51%);
+    }
+
+    .share-tog {
+        background: hsl(214, 17%, 51%);
+        color: white;
+    }
+
+    .share-btns {
+        position: static;
+        transform: translateX(0%);
+    }
+
+    .share-btns::after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .wrapper {
+        width: 90%;
+    }
+    
+    .header {
+        font-size: 1.0rem;
+    }
+    .desc{
+        font-size: 14px;
+    }
+    .profile-pic{
+        width: 40px;
+        height: 40px;
+    }
+}
